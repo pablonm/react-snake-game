@@ -1,2 +1,4 @@
 # react-snake-game
-A little snake game in react to practice
+Little sunday project
+
+![Gif Animation](public/Animation.gif)

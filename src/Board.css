@@ -1,5 +1,7 @@
 .container {
   width: fit-content;
+  background-color: #222;
+  padding: 25px;
 }
 
 .board {
