@@ -1,0 +1,77 @@
+.container {
+  width: fit-content;
+}
+
+.board {
+  border: 1px solid #6473ff;
+  display: inline-block;
+}
+
+.row {
+  display: flex;
+}
+
+.cell {
+  position: relative;
+  height: 20px;
+  width: 20px;
+}
+
+.head {
+  background-color: #00b254;
+}
+
+.head.left::after {
+  content: ":";
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+  position: absolute;
+  top: -6px;
+  left: 3px;
+}
+
+.head.right::after {
+  content: ":";
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+  position: absolute;
+  top: -6px;
+  left: 10px;
+}
+
+.head.down::after {
+  content: ". .";
+  font-size: 16px;
+  font-weight: bold;
+  color: black;
+  position: absolute;
+  top: -2px;
+  left: 3px;
+}
+
+.head.up::after {
+  content: ". .";
+  font-size: 16px;
+  font-weight: bold;
+  color: black;
+  position: absolute;
+  top: -9px;
+  left: 3px;
+}
+
+.tail {
+  background-color: #00d464;
+}
+
+.food {
+  background-color: #6473ff;
+}
+
+.max-score {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 18px;
+  color: #6473ff
+}
